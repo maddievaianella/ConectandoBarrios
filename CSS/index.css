@@ -1,0 +1,40 @@
+/* Estilo del fondo de Inicio*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    margin: 2rem;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-content: center;
+  }
+
+  .imagen-casa {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay negro semitransparente */
+  }
+  
+  .text {
+    position: relative;
+    color: white;
+    z-index: 1;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem;
+  }
+
