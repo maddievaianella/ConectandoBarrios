@@ -9,6 +9,7 @@
         <!-- Archivos CSS propios --> 
         <link rel="stylesheet" href="C:\Users\vaian\OneDrive\Escritorio\ConectandoBarrios\CSS\index.css">
         <link rel="stylesheet" href="C:\Users\vaian\OneDrive\Escritorio\ConectandoBarrios\CSS\header_style.css">
+        <link rel="stylesheet" href="C:\Users\vaian\OneDrive\Escritorio\ConectandoBarrios\CSS\contacto.css">
              
 </head>
 <body>
@@ -31,10 +32,73 @@
         </nav>
 </header>
 
+<!--Formulario-->
+
+<div style="display: flex; align-items: center;">
+
+    <section id="contacto" style="padding: 10px;">
+        <h2 style="margin-top: 1.5cm;">Contactá con Nosotros</h2>
+        <p>Si tienes preguntas, comentarios o deseas más información, por favor completa el formulario a continuación.</p>
+        
+        <form action="/enviar-mensaje" method="button" style="padding: 20px;">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="reset">Enviar</button>
+        </form>
+    </section>
+
+<!-- Redes Sociales -->
+
+    <section id="redes-sociales">
+        <h3>Seguínos en Redes Sociales</h3>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/techo_argentina/?hl=es" target="_blank" class="btn" style="margin: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" width="30" height="30" alt="Instagram TECHO Argentina" class="icono">
+                    TECHO Argentina
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/comunidadtecho_banorte/?hl=es" target="_blank" class="btn" style="margin: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" width="30" height="30" alt="Instagram TECHO Buenos Aires Sede Norte" class="icono">
+                    TECHO Buenos Aires Sede Norte
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/comunidadtecho_baoeste/?hl=es" target="_blank" class="btn" style="margin: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" width="30" height="30" alt="Instagram TECHO Buenos Aires Sede Oeste" class="icono">
+                    TECHO Buenos Aires Sede Oeste
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/comunidadtecho_basur/?hl=es" target="_blank" class="btn" style="margin: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" width="30" height="30" alt="Instagram TECHO Buenos Aires Sede Sur" class="icono">
+                    TECHO Buenos Aires Sede Sur
+                </a>
+            </li>
+
+            <li>
+                <a href="https://techo.org/" target="_blank" class="btn" style="margin: 20px;">
+                    <img src="https://w7.pngwing.com/pngs/428/279/png-transparent-computer-icons-web-page-identity-angle-text-logo-thumbnail.png" width="30" height="30" alt="Sitio Web" class="icono">
+                    Sitio Web TECHO
+                </a>
+            </li>
+        </ul>
+    </section>    
+
+</div>
+
 <!--Footer-->
 
 <footer>
-    <div class="footer-container">
+    <div class="footer-container" style="border: 1px solid #E7ECEF; padding: 5px;">
         <div class="footer-mission" style="display: inline-block; width: 49%;">
             <p>Mostrando realidades, inspirando acciones.</p>
         </div>

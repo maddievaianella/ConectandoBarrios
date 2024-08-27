@@ -1,0 +1,49 @@
+
+/* Estilo de Contacto */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto; /* Centra el formulario en la página */
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block; /* el label ocupa toda la línea */
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box; /* el padding no afecta al ancho */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #A3CEF1;
+    color: #274C77;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #274C77;
+    color: #A3CEF1;
+}
+
+a {
+    background-color: #274C77;
+    color: #A3CEF1;
+}
+
+a:hover {
+    background-color: #A3CEF1;
+    color: #274C77;
+}
