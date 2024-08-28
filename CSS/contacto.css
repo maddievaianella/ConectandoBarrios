@@ -37,13 +37,3 @@ button:hover {
     background-color: #274C77;
     color: #A3CEF1;
 }
-
-a {
-    background-color: #274C77;
-    color: #A3CEF1;
-}
-
-a:hover {
-    background-color: #A3CEF1;
-    color: #274C77;
-}
