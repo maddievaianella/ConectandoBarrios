@@ -5,3 +5,32 @@ body {
     margin-top: 1cm;
 }
 
+.sobrenosotros {
+    padding: 20px ;
+    margin-top: 2cm;
+}
+
+.quienes_somos {
+    padding: 20px;
+    background-color: #274C77;
+    color: #A3CEF1;
+}
+
+.proposito {
+    background-color: #e7ecef;
+    color: #274C77;
+    padding: 20px;
+}
+
+.mision {
+    background-color: #A3CEF1;
+    color: #274C77;
+    padding: 20px;
+}
+
+.valores {
+    background-color: #A18276;
+    color: white;
+    padding: 20px;
+
+}

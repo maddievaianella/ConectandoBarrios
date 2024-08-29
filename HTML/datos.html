@@ -9,7 +9,10 @@
         <!-- Archivos CSS propios --> 
         <link rel="stylesheet" href="..\CSS\index.css">
         <link rel="stylesheet" href="..\CSS\header_style.css">
-        <link rel="stylesheet" href="//cdn.datatables.net/2.1.4/css/dataTables.dataTables.min.css"
+        <link rel="stylesheet" href="..\CSS\datos.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+
              
 </head>
 <body>
@@ -30,13 +33,98 @@
     
         </nav>
     </header>
+    
+<!--Tabla de Datos-->
+
+<h1 class="primertitulo" style="padding: 20px; margin-top: 1.5cm;">Datos Obtenidos</h1>
+<h4 style="padding: 20px;">Información sobre los  barrios populares y estadísticas.</h4>
+
+<div style="justify-content: center;">
+    <h2 style="font-size: x-large; background-color: #A18276; color: #ffff; padding: 20px; ">Conocé la realidad de los barrios</h2>
+</div>
+
+    <div style="display: flex; align-items: center; padding: 20px; justify-content: center;">
+        <div class="data-container">
+            <p class="data-number">6467</p>
+            <p class="data-description">Barrios Populares</p>
+        </div>
+
+        <section class="data-container">
+            <p class="data-number">1.124.797</p>
+            <p class="data-description">Viviendas</p>
+        </section>
+
+        <div class="data-container">
+            <p class="data-number">1.237.795</p>
+            <p class="data-description">Familias</p>
+        </div>
+    </div>
+
+
+    <div style="display: flex; align-items: center; padding: 20px; justify-content: center;">
+        <div class="data-container">
+            <p class="data-number">Electricidad</p>
+            <p class="data-description">1 de cada 3 asentamientos (36,7%) no cuenta con conexión eléctrica formal</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">Agua Corriente</p>
+            <p class="data-description">1 de cada 2 asentamientos (53,5%) no cuenta con conexión al servicio de agua potable.</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">Alcantarillado</p>
+            <p class="data-description">3 de cada 4 asentamientos (73,3%) no cuenta con conexión a la red de alcantarillado.</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">Desalojo</p>
+            <p class="data-description">1 de cada 5 asentamientos (20,3%) cuenta con altas posibilidades de sufrir un desalojo.</p>
+        </div>
+
+    </div>
+
+    <div style="display: flex; align-items: center; padding: 20px; justify-content: center;">
+        <div class="data-container">
+            <p class="data-number">+420 asentamientos</p>
+            <p class="data-description">en los que trabajamos actualmente</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">+1.551.286 voluntades</p>
+            <p class="data-description">movilizadas</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">146.160 familias</p>
+            <p class="data-description">con las que construimos una vivienda más adecuada</p>
+        </div>
+
+        <div class="data-container">
+            <p class="data-number">+18.000 proyectos</p>
+            <p class="data-description">de infraestructura comunitaria y saneamiento básico</p>
+        </div>
+
+    </div>
+
+
 
 <!-- Iframe de LookerStudio -->
 
-<iframe width="600" height="732" src="https://lookerstudio.google.com/embed/reporting/0a127285-4dd0-43b2-b7b2-98390bfd567f/page/klATC" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<div style="display: flex; align-items: center; padding: 20px; justify-content: center;">
+    <div style=" padding: 40px;">
+        <h2>Podes filtrar la información de la</h2>
+        <h2>página oficial del ReNaBaP </h2>
+        <h2>y conocer más datos </h2>
+        <h2>de los barrios en todo el país</h2>
+    </div>
+<iframe width="650" height="650" src="https://lookerstudio.google.com/embed/reporting/0a127285-4dd0-43b2-b7b2-98390bfd567f/page/klATC" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
+</div>
 
 <!--Footer-->
 
+<p>Información obtenida de documentos oficiales de TECHO y del estado.</p>
 <footer>
     <div class="footer-container" style="border: 1px solid #E7ECEF; padding: 5px;">
         <div class="footer-mission" style="display: inline-block; width: 49%;">
@@ -51,6 +139,8 @@
 
 </div>
 
-<script src="//cdn.datatables.net/2.1.4/js/dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
 </body>
 </html>
