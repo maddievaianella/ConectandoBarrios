@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="..\CSS\index.css">
     <link rel="stylesheet" href="..\CSS\header_style.css">
     <link rel="stylesheet" href="..\CSS\sedes_argentina.css">
+    <link rel="stylesheet" href="..\CSS\index2.css">
 
 </head>
 
@@ -58,6 +59,51 @@
 </div>
 </div>
 
+<!-- Descripción Breve del Proyecto -->
+
+<section id="descripcion">
+    <h2>Sobre el Proyecto</h2>
+    <p>Este proyecto surge como una respuesta a la necesidad de dar voz a los barrios populares que luchan por acceder a derechos fundamentales. A través de un mapeo detallado y accesible, buscamos no solo visibilizar las carencias, sino también movilizar a la comunidad en favor de mejoras concretas. La plataforma está diseñada para ser un recurso tanto informativo como práctico, facilitando la conexión entre quienes desean ayudar y las necesidades específicas de cada barrio.</p>
+</section>
+
+<!-- Testimonios o Impacto Social -->
+
+<section id="testimonios">
+    <h2>Impacto Social</h2>
+    <blockquote>
+        "Gracias a este proyecto, ahora más personas entienden nuestras necesidades y se suman a la lucha por nuestros derechos." – Residente del Barrio X
+    </blockquote>
+    <blockquote>
+        "Los datos y el mapa nos han permitido organizar mejor nuestras acciones en la comunidad." – Voluntario de TECHO
+    </blockquote>
+</section>
+
+<!-- Noticias o Actualizaciones Recientes -->
+
+<section id="noticias">
+    <h2>Últimas Noticias</h2>
+    <article>
+        <h3>Nuevo Tanque de Agua para el barrio La Bistrica</h3>
+        <p>La Mesa de Trabajo junto con los vecinos del barrio construyeron un tanque de agua!</p>
+    </article>
+    <article>
+        <h3>Evento de Concientización Climática en Buenos Aires</h3>
+        <p>Únete a nuestro evento el próximo sábado para aprender más sobre las condiciones en los barrios populares y cómo es un factor el cambio climático.</p>
+    </article>
+</section>
+
+<!-- Imágenes Representativas -->
+
+<section id="imagenes">
+    <h2>Galería</h2>
+    <div class="gallery">
+        <img src="https://scontent.faep24-1.fna.fbcdn.net/v/t1.18169-9/10649884_10152349263836295_1821886066448713415_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0327a3&_nc_ohc=Y7j-6fwRfEcQ7kNvgHfFamr&_nc_ht=scontent.faep24-1.fna&oh=00_AYCoSnuw6t8Y-CJfaf9c_ghVxVgNOQ0c-Cfv5XPH-0v7yA&oe=66F8626C" alt="Barrio Popular">
+        <img src="https://scontent.faep24-1.fna.fbcdn.net/v/t31.18172-8/10855035_10152717381276295_2724199387721457158_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0327a3&_nc_ohc=SrNyHqWF-JsQ7kNvgGwZAC3&_nc_ht=scontent.faep24-1.fna&oh=00_AYCDOYDmEfEwSHOdRiSYnQPH9usz6ns6cL_JvDA4ntbBTQ&oe=66F87C16" alt="Voluntarios de TECHO">
+        <img src="https://scontent.faep24-2.fna.fbcdn.net/v/t31.18172-8/1966204_10152075373921295_905342385265544437_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0327a3&_nc_ohc=rj_cn60AWrkQ7kNvgGEMAP4&_nc_ht=scontent.faep24-2.fna&oh=00_AYCmGQQf2m2xhbjsBjgHkPzwwm3HPaf0Zlx5QMY2K8P0eA&oe=66F86D20" alt="Reunión Comunitaria">
+    </div>
+</section>
+
+
 <!-- Mapa Argentina -->
 
     <div style="display: flex; align-items: center; padding: 20px; background-color: #A18276; color: white;">
@@ -84,12 +130,56 @@
     </div>
 </div>
 
+
+<!-- Sección de Colaboradores o Aliados -->
+
+<section id="colaboradores">
+    <h2>Aliados y Colaboradores</h2>
+    <div class="partners">
+        <img src="https://iconape.com/wp-content/files/qf/183529/svg/183529.svg" alt="Logo TECHO">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvSqGZgHBoRG4_pu1kWfVshzG4SLfwp4xQTg&s" alt="Logo ReNaBaP">
+        <img src="https://pbs.twimg.com/media/Do_rjgLX4AA_7vg.jpg" alt="Logo CIS">
+    </div>
+</section>
+
+
+<!-- Sección de Redes Sociales -->
+<div style="display: flex; align-items: center;">
+
+<section id="redes-sociales">
+    <h2>Conéctate con Nosotros</h2>
+    <p>Síguenos en nuestras redes sociales para estar al tanto de las últimas novedades y eventos:</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/techo_argentina/?hl=es" target="_blank"><img src="..\Logos\instagram.png" alt="Instagram"><p>TECHO Argentina</p></a>
+        <a href="https://techo.org/" target="_blank"><img src="..\Logos\internet.png" alt="Sitio Web"><p>TECHO Web</p></a>
+    </div>
+</section>
+
+<!-- Formulario de Contacto o Suscripción -->
+
+<section id="contacto">
+    <form action="procesar_formulario.php" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button style="padding: 20px; max-width: 150px;" class="div" type="reset">Enviar</button>
+
+    </form>
+</section>
+</div>
 <!--Footer-->
 
 <footer>
     <div class="footer-container" style="border: 1px solid #E7ECEF; padding: 5px;">
         <div class="footer-mission" style="display: inline-block; width: 49%;">
-            <p>Mostrando realidades, inspirando acciones.</p>
+            <p>Mapeando realidades, inspirando acciones.</p>
         </div>
         <div class="footer-credits" style="display: inline-block; width: 49%; text-align: right;">
             <p>Desarrollado por Madeleine Vaianella.</p>

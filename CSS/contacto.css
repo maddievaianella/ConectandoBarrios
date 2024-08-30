@@ -23,17 +23,34 @@ input, textarea {
     box-sizing: border-box; /* el padding no afecta al ancho */
 }
 
+
+
+#redes-sociales button {
+    margin-top: 20px;
+    padding: 10;
+    background-color: #E7ECEF;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+#redes-sociales button:hover {
+    background-color: #A18276;
+    color: white;
+  }
+
 button {
     margin-top: 20px;
     padding: 10px;
     background-color: #A3CEF1;
     color: #274C77;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #274C77;
     color: #A3CEF1;
-}
+}  
