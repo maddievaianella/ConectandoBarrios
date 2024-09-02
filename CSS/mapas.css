@@ -14,3 +14,17 @@
     font-size: 1em;
     color: #555;
 }
+
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.definciones ul {
+    padding: 20px;
+}
+
+.definiciones li {
+    font-size: large;
+    padding: 20px;
+}
