@@ -40,7 +40,7 @@
         <h2 style="margin-top: 1.5cm;">Contactá con Nosotros</h2>
         <p>Si tienes preguntas, comentarios o deseas más información, por favor completa el formulario a continuación.</p>
         
-        <form action="/enviar-mensaje" method="button" style="padding: 20px;">
+        <form id="contactForm" action="/enviar-mensaje" method="button" style="padding: 20px;">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
 
@@ -50,7 +50,7 @@
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-            <button type="reset">Enviar</button>
+            <button id="submitBtn" type="reset">Enviar</button>
         </form>
     </section>
 
@@ -111,6 +111,8 @@
 
 
 </div>
+
+<script src="..\JS\script.js"></script>
 
 </body>
 </html>
