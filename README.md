@@ -17,7 +17,7 @@ Nuestro objetivo principal es crear una plataforma que:
 - Promueva la concienciación y la acción social entre los jóvenes.
 
 ## Público Objetivo
-Este proyecto está dirigido principalmente a jóvenes de 16 a 30 años, quienes pueden ser agentes de cambio en sus comunidades. Creemos que al proporcionarles información clara y accesible, podemos fomentar su participación activa en la lucha por la justicia social y la mejora de las condiciones de vida en los barrios populares.
+Este proyecto está dirigido principalmente a jóvenes de 16 a 26 años, quienes pueden ser agentes de cambio en sus comunidades. Creemos que al proporcionarles información clara y accesible, podemos fomentar su participación activa en la lucha por la justicia social y la mejora de las condiciones de vida en los barrios populares.
 
 ## Solución Propuesta
 Hemos desarrollado esta plataforma con los siguientes componentes clave:
